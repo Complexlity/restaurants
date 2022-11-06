@@ -1,6 +1,9 @@
 body {
     text-align: center;
+    min-height: 100vh;
 }
+
+
 
 .go-to-menu {
     color:orange;
@@ -8,8 +11,7 @@ body {
 }
 
 h1{
-    margin-bottom: 5px;
-
+    margin-block: 5px;
 }
 
 
@@ -46,30 +48,14 @@ h1{
 
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(200,200,200);
+    border: 2px solid hsl(0, 0%, 68%);
   }
  
   td, th {
-    border: 1px solid rgb(190,190,190);
+    border: 1px solid hsl(0, 0%, 65%);
     padding: 10px 20px;
   }
-  /*
-  th {
-    background-color: rgb(235,235,235);
-  }
   
-  td {
-    text-align: center;
-  }
-  
-  tr:nth-child(even) td {
-    background-color: rgb(250,250,250);
-  }
-  
-  tr:nth-child(odd) td {
-    background-color: rgb(245,245,245);
-  }
-  */
   caption {
     padding: 10px;
     font-size: 2rem;
@@ -90,4 +76,10 @@ table {
 
   nav{
     padding-inline: 15px;
+    background-color:hsl(0, 0%, 70%);
   }
+
+  nav * {
+    color:hsl(0, 0%, 97%);
+  }
+
