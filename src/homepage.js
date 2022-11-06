@@ -10,6 +10,7 @@ export function spanMenu(content){
 }
 
 export default function myPage(content){
+    content.innerHTML = ''
     const hero = document.createElement('img')
     hero.src = heroImg
     hero.style.width = "80%"

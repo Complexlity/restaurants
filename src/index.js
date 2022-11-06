@@ -7,6 +7,7 @@ import contact from './contact'
 
 const content = document.querySelector('#content')
 homepage(content)
+let currentPage = 'home'
 spanMenu(content)
 const gitImg = document.querySelector('#git-logo')
 const navs = document.querySelectorAll('.navigation')
@@ -15,18 +16,23 @@ gitImg.src =  gitLogo
 navs.forEach(nav => nav.addEventListener('click', loadPage))
 
 function loadPage(){
-    console.log(this)
     let clicked = this.textContent.toLowerCase()
-    content.innerHTML = ''
     switch (clicked){
         case 'home':
+            if(currentPage == 'home') return
             homepage(content)
+            spanMenu(content)
+            currentPage = 'home'
             break
         case 'menu':
+            if(currentPage == 'menu') return
             menu(content)
+            currentPage = 'menu'
             break
         case 'contact':
+            if(currentPage == 'contact') return
             contact(content)
+            currentPage = 'contact'
             break
 
     }
