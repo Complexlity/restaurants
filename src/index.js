@@ -22,16 +22,19 @@ function loadPage(){
             if(currentPage == 'home') return
             homepage(content)
             getMenuMiniBtn()
+            document.body.style.overflow = 'auto'
             currentPage = 'home'
             break
         case 'menu':
             if(currentPage == 'menu') return
             menu(content)
+            document.body.style.overflow = 'auto'
             currentPage = 'menu'
             break
         case 'about':
             if(currentPage == 'about') return
             about(content)
+            document.body.style.overflow = 'hidden'
             currentPage = 'about'
             break
 
@@ -42,4 +45,9 @@ function loadPage(){
 function getMenuMiniBtn(){
     let spanMenu = document.querySelector('.go-to-menu')
     spanMenu.addEventListener('click', loadPage)
+}
+
+function goToGithub(){
+    let github = document.querySelector('.github')
+
 }
