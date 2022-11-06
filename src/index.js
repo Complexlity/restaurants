@@ -1,14 +1,14 @@
 import './css/pico.min.css'
 import './css/custom.css'
 import gitLogo from "./assets/GitHub-Mark-120px-plus.png"
-import homepage, {spanMenu} from "./homepage"
+import homepage from "./homepage"
 import menu from './menu'
 import about from './about'
 
 const content = document.querySelector('#content')
 homepage(content)
+getMenuMiniBtn()
 let currentPage = 'home'
-spanMenu(content)
 const gitImg = document.querySelector('#git-logo')
 const navs = document.querySelectorAll('.navigation')
 gitImg.src =  gitLogo
@@ -21,7 +21,7 @@ function loadPage(){
         case 'home':
             if(currentPage == 'home') return
             homepage(content)
-            spanMenu(content)
+            getMenuMiniBtn()
             currentPage = 'home'
             break
         case 'menu':
@@ -36,4 +36,10 @@ function loadPage(){
             break
 
     }
+}
+
+
+function getMenuMiniBtn(){
+    let spanMenu = document.querySelector('.go-to-menu')
+    spanMenu.addEventListener('click', loadPage)
 }

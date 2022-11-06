@@ -1,6 +1,7 @@
 body {
     text-align: center;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -32,6 +33,11 @@ h1{
     flex-grow: 1;
 }
 
+@media screen and (max-width:768px) {
+    .grid-div{
+        flex-direction: column;
+    }
+}
 .hero {
     margin-bottom: 20px;
     width:100%;
@@ -40,7 +46,14 @@ h1{
 
 .hero + p {
     text-align: start;
-    max-width:24ch;
+    font-size:1.5rem;
+    max-width:28ch;
+}
+
+@media screen and (max-width:768px) {
+    .hero + p {
+        max-width: unset;
+    }
 }
 
 
