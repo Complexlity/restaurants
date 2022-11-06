@@ -146,7 +146,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ myPage)\n/* harmony export */ });\nfunction myPage(content){\r\ncontent.innerHTML = `\r\n<section id=\"welcome-section\" class=\"flex flex-center full-height\">\r\n        <h1>I am Complexlity</h1>\r\n        <p>A Web Developer currently on the Odin Project Curriculum\r\n        <br>Click the <a class=\"go-to\" target=\"_blank\" href=\"https://github.com/Complexlity\">Github</a> Icon to see my codes and projects. Thank You</p>\r\n    </section>`\r\n}\n\n//# sourceURL=webpack://restaurant/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ myPage)\n/* harmony export */ });\nfunction myPage(content){\r\ncontent.innerHTML = `\r\n<section id=\"welcome-section\" class=\"flex flex-center full-height\">\r\n        <h1>I am Complexlity</h1>\r\n        <p>A Web Developer currently on the Odin Project Curriculum\r\n        <br>Go to <a class=\"go-to\" target=\"_blank\" href=\"https://github.com/Complexlity\">Github</a> Icon to see my codes and projects. Thank You</p>\r\n    </section>`\r\n}\n\n//# sourceURL=webpack://restaurant/./src/about.js?");
 
 /***/ }),
 
