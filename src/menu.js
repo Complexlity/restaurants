@@ -10,53 +10,53 @@ content.innerHTML += `
     <tr>
         <th>Dish Name</th>
         <th>About</th>
-        <th>Taste</th>
-        <th>Cost</th>
+        <th>Taste (1-10)</th>
         <th>Rating</th>
+        <th>Cost</th>
     </tr>
 </thead>
 <tbody>
     <tr>
         <th>Pizza</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Made with cheese</td>
+        <td>5</td>
+        <td>9.9</td>
+        <td>$5</td>
     </tr>
     <tr>
         <th>Grand spicy chicken</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Made with chicken</td>
+        <td>8</td>
+        <td>8.7</td>
+        <td>$2</td>
     </tr>
     <tr>
         <th>Nuggets</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Made of meat</td>
+        <td>8</td>
+        <td>$4</td>
+        <td>9.2</td>
     </tr>
     <tr>
         <th>Lasagne</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Made of meat and chees</td>
+        <td>7</td>
+        <td>$6</td>
+        <td>7.4</td>
     </tr>
     <tr>
         <th>Waffles</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Made of Egg</td>
+        <td>6</td>
+        <td>$8</td>
+        <td>8.0</td>
     </tr>
     <tr>
         <th>Beetroot</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Also called <span class="beta">Beta Vulgaris</span></td>
+        <td>8.4</td>
+        <td>$8.5</td>
+        <td>9.3</td>
     </tr>
 </tbody>
 </table>
