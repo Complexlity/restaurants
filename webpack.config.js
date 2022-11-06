@@ -8,7 +8,6 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
-        // clean:true, 
         assetModuleFilename:'[name][ext]'
     },
     module: {
