@@ -3,7 +3,7 @@ import './css/custom.css'
 import gitLogo from "./assets/GitHub-Mark-120px-plus.png"
 import homepage, {spanMenu} from "./homepage"
 import menu from './menu'
-import contact from './contact'
+import about from './about'
 
 const content = document.querySelector('#content')
 homepage(content)
@@ -29,10 +29,10 @@ function loadPage(){
             menu(content)
             currentPage = 'menu'
             break
-        case 'contact':
-            if(currentPage == 'contact') return
-            contact(content)
-            currentPage = 'contact'
+        case 'about':
+            if(currentPage == 'about') return
+            about(content)
+            currentPage = 'about'
             break
 
     }

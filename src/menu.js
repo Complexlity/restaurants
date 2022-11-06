@@ -4,14 +4,14 @@ const header = document.createElement('h1')
 header.textContent = "Welcome To Complex Menu"
 content.append(header)
 content.innerHTML += `
-<table>
+<table role="grid">
 <caption>Our Exotic Dishes</caption>
 <thead>
     <tr>
         <th>Dish Name</th>
         <th>About</th>
         <th>Taste</th>
-        <th>Found</th>
+        <th>Cost</th>
         <th>Rating</th>
     </tr>
 </thead>

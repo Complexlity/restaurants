@@ -11,9 +11,11 @@ export function spanMenu(content){
 
 export default function myPage(content){
     content.innerHTML = ''
+    const grided = document.createElement('div')
+    grided.classList.add('grid-div')
     const hero = document.createElement('img')
     hero.src = heroImg
-    hero.style.width = "80%"
+    hero.classList.add('hero')
     const heading = document.createElement('h1')
     heading.textContent = 'Complexlity\'s Kitchen'
     const para = document.createElement('p')
@@ -23,6 +25,7 @@ export default function myPage(content){
 para.innerHTML = `Hello there. Welcome to my beautiful restaurant. Check out our `
 para.append(spanMenu)
 para.innerHTML += ' for the delicious dishes we have'
-content.append(heading, hero, para)
+grided.append(hero, para)
+content.append(heading, grided)
 
 }

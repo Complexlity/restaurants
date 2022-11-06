@@ -13,18 +13,43 @@ h1{
 }
 
 
+#welcome-section {
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+.grid-div {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    margin-bottom: 20px;
+}
+
+.hero + p {
+    width:24ch;
+    text-align: start;
+}
+
+
+
+
 table {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
-    letter-spacing: 1px;
-    font-size: 0.8rem;
   }
-  
+ 
   td, th {
     border: 1px solid rgb(190,190,190);
     padding: 10px 20px;
   }
-  
+  /*
   th {
     background-color: rgb(235,235,235);
   }
@@ -45,4 +70,4 @@ table {
     padding: 10px;
     font-size: 2rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-  }
+  } */
