@@ -1,17 +1,3 @@
-body {
-    text-align: center;
-}
-
-.go-to-menu {
-    color:orange;
-    cursor:pointer;
-}
-
-h1{
-    margin-bottom: 5px;
-
-}
-
 
 table {
     border-collapse: collapse;
