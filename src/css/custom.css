@@ -6,7 +6,7 @@ body {
 
 
 
-.go-to-menu {
+.go-to-menu,.go-to {
     color:orange;
     cursor:pointer;
 }
@@ -96,3 +96,10 @@ table {
     color:hsl(0, 0%, 97%);
   }
 
+th {
+    font-weight:500;
+}
+
+thead th {
+    font-weight: 700;
+}
