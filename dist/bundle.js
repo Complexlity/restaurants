@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/generator.js":
-/*!**************************!*\
-  !*** ./src/generator.js ***!
-  \**************************/
+/***/ "./src/homepage.js":
+/*!*************************!*\
+  !*** ./src/homepage.js ***!
+  \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ generator)\n/* harmony export */ });\nfunction generator(value){\r\n    value.textContent += \"I was imported lolz\"\r\n}\n\n//# sourceURL=webpack://restaurant/./src/generator.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ myPage)\n/* harmony export */ });\n/* harmony import */ var _assets_pexels_photo_262978_webp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/pexels-photo-262978.webp */ \"./src/assets/pexels-photo-262978.webp\");\n\r\n\r\nfunction myPage(content){\r\nconst hero = document.createElement('img')\r\nhero.src = _assets_pexels_photo_262978_webp__WEBPACK_IMPORTED_MODULE_0__\r\nhero.style.width = \"80%\"\r\nconst heading = document.createElement('h1')\r\nheading.textContent = 'Complexlity\\'s Kitchen'\r\nconst para = document.createElement('p')\r\npara.textContent = \"Hello there. Welcome to my beautiful restaurant. In here we have pizza, lasangne, grand spicy chicken, nuggets, quesadillas, waffles and weetbits. All for your stomach's satisfactions and you taste bud's pleasure\"\r\ncontent.append(heading, hero, para)\r\n\r\n}\n\n//# sourceURL=webpack://restaurant/./src/homepage.js?");
 
 /***/ }),
 
@@ -26,7 +26,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _generator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generator */ \"./src/generator.js\");\n\r\nconst content = document.querySelector('#content')\r\nconst heading = document.createElement('h1')\r\nconst added = document.createElement('p')\r\nheading.textContent = 'Complexlity\\'s Kitchen'\r\n;(0,_generator__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(added)\r\n\r\ncontent.append(heading)\r\ncontent.append(added)\r\n/*\r\n<h1> Complexlity's Kitchen</h1>\r\n        <img src=\"../src/assets/pexels-photo-262978.webp\" width=\"280px\" alt=\"\">\r\n        <p>Hello there. Welcome to my beautiful restaurant. In here we have pizza, lasangne, grand spicy chicken, nuggets, quesadillas, waffles and weetbits. All for your stomach's satisfactions and you taste bud's pleasure </p>\r\n*/\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _homepage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homepage */ \"./src/homepage.js\");\n\r\n\r\nconst content = document.querySelector('#content')\r\n;(0,_homepage__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(content)\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/pexels-photo-262978.webp":
+/*!*********************************************!*\
+  !*** ./src/assets/pexels-photo-262978.webp ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"pexels-photo-262978.webp\";\n\n//# sourceURL=webpack://restaurant/./src/assets/pexels-photo-262978.webp?");
 
 /***/ })
 
@@ -69,6 +79,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _gen
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -83,6 +105,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _gen
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
