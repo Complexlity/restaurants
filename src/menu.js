@@ -34,29 +34,29 @@ content.innerHTML += `
         <th>Nuggets</th>
         <td>Made of meat</td>
         <td>8</td>
-        <td>$4</td>
         <td>9.2</td>
+        <td>$4</td>
     </tr>
     <tr>
         <th>Lasagne</th>
         <td>Made of meat and chees</td>
         <td>7</td>
-        <td>$6</td>
         <td>7.4</td>
+        <td>$6</td>
     </tr>
     <tr>
         <th>Waffles</th>
         <td>Made of Egg</td>
         <td>6</td>
-        <td>$8</td>
         <td>8.0</td>
+        <td>$8</td>
     </tr>
     <tr>
         <th>Beetroot</th>
         <td>Also called <span class="beta">Beta Vulgaris</span></td>
         <td>8.4</td>
-        <td>$8.5</td>
         <td>9.3</td>
+        <td>$8.5</td>
     </tr>
 </tbody>
 </table>
