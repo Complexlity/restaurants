@@ -33,6 +33,7 @@ module.exports = {
             title: 'Complex Restaurant',
             filename: 'index.html',
             template:'src/template.html',
+            favicon:'src/assets/favicon.ico'
         }),
         new BundleAnalyzerPlugin(),
     ],
