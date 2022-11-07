@@ -14,7 +14,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(png|jpg|jpeg|webp|svg|gif)$/i,
+                test: /\.(png|jpg|jpeg|webp|svg|gif|ico)$/i,
                 type: 'asset/resource'
             },
             {
@@ -31,6 +31,7 @@ module.exports = {
             title: 'Complex Restaurant',
             filename: 'index.html',
             template:'src/template.html',
+            favicon: "./src/assets/favicon.ico"
         }),
     ],
 }

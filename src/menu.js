@@ -39,7 +39,7 @@ content.innerHTML += `
     </tr>
     <tr>
         <th>Lasagne</th>
-        <td>Made of meat and chees</td>
+        <td>Made of meat and cheese</td>
         <td>7</td>
         <td>7.4</td>
         <td>$6</td>
