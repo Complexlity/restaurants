@@ -8,8 +8,9 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js',
-        assetModuleFilename:'[name][ext]'
+        filename: '[name][contenthash].js',
+        assetModuleFilename:'[name][ext]',
+        clean:true,
     },
     module: {
         rules: [
