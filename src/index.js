@@ -5,6 +5,7 @@ import homepage from "./homepage"
 import menu from './menu'
 import about from './about'
 
+
 const content = document.querySelector('#content')
 homepage(content)
 getMenuMiniBtn()

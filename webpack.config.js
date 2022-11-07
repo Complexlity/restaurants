@@ -25,6 +25,13 @@ module.exports = {
                 ]
             }
         ]
-    }
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'Complex Restaurant',
+            filename: 'index.html',
+            template:'src/template.html',
+        }),
+    ],
 }
 

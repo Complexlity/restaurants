@@ -1,14 +1,6 @@
 import heroImg from "./assets/pexels-photo-262978.webp"
 import menu from './menu'
 
-export function spanMenu(content,currentPage){
-    let spanMenu = document.querySelector('.go-to-menu')
-    spanMenu.addEventListener('click', () => {
-        content.innerHTML = ''    
-        menu(content)
-    })
-}
-
 export default function myPage(content){
     content.innerHTML = ''
     const grided = document.createElement('div')
