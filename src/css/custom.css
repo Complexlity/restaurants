@@ -51,6 +51,12 @@ h1{
     max-width:28ch;
 }
 
+.beta {
+    font-weight: 700;
+    color:hsl(195deg, 85%, 41%);
+    font-style:italic;
+}
+
 @media screen and (max-width:768px) {
     .hero + p {
         max-width: unset;
