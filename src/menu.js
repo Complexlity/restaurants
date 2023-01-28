@@ -1,9 +1,9 @@
-export default function myPage(content){
-content.innerHTML = ''
-const header = document.createElement('h1')
-header.textContent = "Welcome To Complex Menu"
-content.append(header)
-content.innerHTML += `
+export default function myPage(content) {
+  content.innerHTML = "";
+  const header = document.createElement("h1");
+  header.textContent = "Welcome To Complex Menu";
+  content.append(header);
+  content.innerHTML += `
 <table role="grid">
 <caption>Our Exotic Dishes</caption>
 <thead>
@@ -58,7 +58,21 @@ content.innerHTML += `
         <td>9.3</td>
         <td>$8.5</td>
     </tr>
+    <tr>
+        <th>Camari</th>
+        <td>Optional</td>
+        <td>5</td>
+        <td>5</td>
+        <td>$2</td>
+    </tr>
+    <tr>
+        <th>Prawn Pasta</th>
+        <td>Some memories here. It has to taste good by force 😑</td>
+        <td>10 (<span class="beta"> according to her </span>)</td>
+        <td>5</td>
+        <td>$10.2</td>
+    </tr>
 </tbody>
 </table>
-`
+`;
 }

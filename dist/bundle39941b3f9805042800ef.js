@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n    text-align: center;\r\n    min-height: 100vh;\r\n    overflow: auto;\r\n    padding-bottom:20px;\r\n}\r\n\r\n\r\n\r\n.go-to-menu,.go-to {\r\n    color:orange;\r\n    cursor:pointer;\r\n}\r\n\r\nh1{\r\n    margin-block: 5px;\r\n}\r\n\r\n\r\n#welcome-section {\r\n    display:flex;\r\n    flex-direction: column;\r\n    height:100vh;\r\n    align-items: center;\r\n    justify-content: center;\r\n    background-color: #eee;\r\n}\r\n.grid-div {\r\n    margin-top:30px;\r\n    display: flex;\r\n    gap:40px;\r\n    justify-content: start;\r\n    align-items: center;\r\n    flex-grow: 1;\r\n}\r\n\r\n@media screen and (max-width:768px) {\r\n    .grid-div{\r\n        flex-direction: column;\r\n    }\r\n}\r\n.hero {\r\n    margin-bottom: 20px;\r\n    width:100%;\r\n    flex-basis: 50%;\r\n}\r\n\r\n.hero + p {\r\n    text-align: start;\r\n    font-size:1.5rem;\r\n    max-width:28ch;\r\n}\r\n\r\n.beta {\r\n    font-weight: 700;\r\n    color:hsl(195deg, 85%, 41%);\r\n    font-style:italic;\r\n}\r\n\r\n@media screen and (max-width:768px) {\r\n    .hero + p {\r\n        max-width: unset;\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\ntable {\r\n    border-collapse: collapse;\r\n    border: 2px solid hsl(0, 0%, 68%);\r\n  }\r\n \r\n  td, th {\r\n    border: 1px solid hsl(0, 0%, 65%);\r\n    padding: 10px 20px;\r\n  }\r\n  \r\n  caption {\r\n    padding: 10px;\r\n    font-size: 2rem;\r\n    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif\r\n  } \r\n\r\n  tr > td:last-of-type, tr>td:nth-of-type(3), tr>th:nth-of-type(4), tr>th:last-of-type {\r\n    text-align: end;\r\n  }\r\n\r\n  tr>td:nth-of-type(2), tr>th:nth-of-type(3) {\r\n    text-align: center;\r\n  }\r\n\r\n  tr>th:first-of-type{\r\n    text-align: start;\r\n  }\r\n\r\n  nav{\r\n    padding-inline: 15px;\r\n    background-color:hsl(0, 0%, 70%);\r\n  }\r\n\r\n  nav * {\r\n    color:hsl(0, 0%, 97%);\r\n  }\r\n\r\nth {\r\n    font-weight:500;\r\n}\r\n\r\nthead th {\r\n    font-weight: 700;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/custom.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,iBAAiB;IACjB,cAAc;IACd,mBAAmB;AACvB;;;;AAIA;IACI,YAAY;IACZ,cAAc;AAClB;;AAEA;IACI,iBAAiB;AACrB;;;AAGA;IACI,YAAY;IACZ,sBAAsB;IACtB,YAAY;IACZ,mBAAmB;IACnB,uBAAuB;IACvB,sBAAsB;AAC1B;AACA;IACI,eAAe;IACf,aAAa;IACb,QAAQ;IACR,sBAAsB;IACtB,mBAAmB;IACnB,YAAY;AAChB;;AAEA;IACI;QACI,sBAAsB;IAC1B;AACJ;AACA;IACI,mBAAmB;IACnB,UAAU;IACV,eAAe;AACnB;;AAEA;IACI,iBAAiB;IACjB,gBAAgB;IAChB,cAAc;AAClB;;AAEA;IACI,gBAAgB;IAChB,2BAA2B;IAC3B,iBAAiB;AACrB;;AAEA;IACI;QACI,gBAAgB;IACpB;AACJ;;;;;AAKA;IACI,yBAAyB;IACzB,iCAAiC;EACnC;;EAEA;IACE,iCAAiC;IACjC,kBAAkB;EACpB;;EAEA;IACE,aAAa;IACb,eAAe;IACf;EACF;;EAEA;IACE,eAAe;EACjB;;EAEA;IACE,kBAAkB;EACpB;;EAEA;IACE,iBAAiB;EACnB;;EAEA;IACE,oBAAoB;IACpB,gCAAgC;EAClC;;EAEA;IACE,qBAAqB;EACvB;;AAEF;IACI,eAAe;AACnB;;AAEA;IACI,gBAAgB;AACpB","sourcesContent":["body {\r\n    text-align: center;\r\n    min-height: 100vh;\r\n    overflow: auto;\r\n    padding-bottom:20px;\r\n}\r\n\r\n\r\n\r\n.go-to-menu,.go-to {\r\n    color:orange;\r\n    cursor:pointer;\r\n}\r\n\r\nh1{\r\n    margin-block: 5px;\r\n}\r\n\r\n\r\n#welcome-section {\r\n    display:flex;\r\n    flex-direction: column;\r\n    height:100vh;\r\n    align-items: center;\r\n    justify-content: center;\r\n    background-color: #eee;\r\n}\r\n.grid-div {\r\n    margin-top:30px;\r\n    display: flex;\r\n    gap:40px;\r\n    justify-content: start;\r\n    align-items: center;\r\n    flex-grow: 1;\r\n}\r\n\r\n@media screen and (max-width:768px) {\r\n    .grid-div{\r\n        flex-direction: column;\r\n    }\r\n}\r\n.hero {\r\n    margin-bottom: 20px;\r\n    width:100%;\r\n    flex-basis: 50%;\r\n}\r\n\r\n.hero + p {\r\n    text-align: start;\r\n    font-size:1.5rem;\r\n    max-width:28ch;\r\n}\r\n\r\n.beta {\r\n    font-weight: 700;\r\n    color:hsl(195deg, 85%, 41%);\r\n    font-style:italic;\r\n}\r\n\r\n@media screen and (max-width:768px) {\r\n    .hero + p {\r\n        max-width: unset;\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\ntable {\r\n    border-collapse: collapse;\r\n    border: 2px solid hsl(0, 0%, 68%);\r\n  }\r\n \r\n  td, th {\r\n    border: 1px solid hsl(0, 0%, 65%);\r\n    padding: 10px 20px;\r\n  }\r\n  \r\n  caption {\r\n    padding: 10px;\r\n    font-size: 2rem;\r\n    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif\r\n  } \r\n\r\n  tr > td:last-of-type, tr>td:nth-of-type(3), tr>th:nth-of-type(4), tr>th:last-of-type {\r\n    text-align: end;\r\n  }\r\n\r\n  tr>td:nth-of-type(2), tr>th:nth-of-type(3) {\r\n    text-align: center;\r\n  }\r\n\r\n  tr>th:first-of-type{\r\n    text-align: start;\r\n  }\r\n\r\n  nav{\r\n    padding-inline: 15px;\r\n    background-color:hsl(0, 0%, 70%);\r\n  }\r\n\r\n  nav * {\r\n    color:hsl(0, 0%, 97%);\r\n  }\r\n\r\nth {\r\n    font-weight:500;\r\n}\r\n\r\nthead th {\r\n    font-weight: 700;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  text-align: center;\r\n  min-height: 100vh;\r\n  overflow: auto;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.go-to-menu,\r\n.go-to {\r\n  color: orange;\r\n  cursor: pointer;\r\n}\r\n\r\nh1 {\r\n  margin-block: 5px;\r\n}\r\n\r\n#welcome-section {\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 100vh;\r\n  align-items: center;\r\n  justify-content: center;\r\n  background-color: #eee;\r\n}\r\n.grid-div {\r\n  margin-top: 30px;\r\n  display: flex;\r\n  gap: 40px;\r\n  justify-content: start;\r\n  align-items: center;\r\n  flex-grow: 1;\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n  .grid-div {\r\n    flex-direction: column;\r\n  }\r\n}\r\n.hero {\r\n  margin-bottom: 20px;\r\n  width: 100%;\r\n  flex-basis: 50%;\r\n}\r\n\r\n.hero + p {\r\n  text-align: start;\r\n  font-size: 1.5rem;\r\n  max-width: 28ch;\r\n}\r\n\r\n.italic {\r\n  font-style: italic;\r\n}\r\n\r\n.beta {\r\n  font-weight: 700;\r\n  color: hsl(195deg, 85%, 41%);\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n  .hero + p {\r\n    max-width: unset;\r\n  }\r\n}\r\n\r\ntable {\r\n  border-collapse: collapse;\r\n  border: 2px solid hsl(0, 0%, 68%);\r\n}\r\n\r\ntd,\r\nth {\r\n  border: 1px solid hsl(0, 0%, 65%);\r\n  padding: 10px 20px;\r\n}\r\n\r\ncaption {\r\n  padding: 10px;\r\n  font-size: 2rem;\r\n  font-family: Cambria, Cochin, Georgia, Times, \"Times New Roman\", serif;\r\n}\r\n\r\ntr > td:last-of-type,\r\ntr > td:nth-of-type(3),\r\ntr > th:nth-of-type(4),\r\ntr > th:last-of-type {\r\n  text-align: end;\r\n}\r\n\r\ntr > td:nth-of-type(2),\r\ntr > th:nth-of-type(3) {\r\n  text-align: center;\r\n}\r\n\r\ntr > th:first-of-type {\r\n  text-align: start;\r\n}\r\n\r\nnav {\r\n  padding-inline: 15px;\r\n  background-color: hsl(0, 0%, 70%);\r\n}\r\n\r\nnav * {\r\n  color: hsl(0, 0%, 97%);\r\n}\r\n\r\nth {\r\n  font-weight: 500;\r\n}\r\n\r\nthead th {\r\n  font-weight: 700;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/custom.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,iBAAiB;EACjB,cAAc;EACd,oBAAoB;AACtB;;AAEA;;EAEE,aAAa;EACb,eAAe;AACjB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,sBAAsB;AACxB;AACA;EACE,gBAAgB;EAChB,aAAa;EACb,SAAS;EACT,sBAAsB;EACtB,mBAAmB;EACnB,YAAY;AACd;;AAEA;EACE;IACE,sBAAsB;EACxB;AACF;AACA;EACE,mBAAmB;EACnB,WAAW;EACX,eAAe;AACjB;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;EAChB,4BAA4B;AAC9B;;AAEA;EACE;IACE,gBAAgB;EAClB;AACF;;AAEA;EACE,yBAAyB;EACzB,iCAAiC;AACnC;;AAEA;;EAEE,iCAAiC;EACjC,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,eAAe;EACf,sEAAsE;AACxE;;AAEA;;;;EAIE,eAAe;AACjB;;AAEA;;EAEE,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,oBAAoB;EACpB,iCAAiC;AACnC;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;AAClB","sourcesContent":["body {\r\n  text-align: center;\r\n  min-height: 100vh;\r\n  overflow: auto;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.go-to-menu,\r\n.go-to {\r\n  color: orange;\r\n  cursor: pointer;\r\n}\r\n\r\nh1 {\r\n  margin-block: 5px;\r\n}\r\n\r\n#welcome-section {\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 100vh;\r\n  align-items: center;\r\n  justify-content: center;\r\n  background-color: #eee;\r\n}\r\n.grid-div {\r\n  margin-top: 30px;\r\n  display: flex;\r\n  gap: 40px;\r\n  justify-content: start;\r\n  align-items: center;\r\n  flex-grow: 1;\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n  .grid-div {\r\n    flex-direction: column;\r\n  }\r\n}\r\n.hero {\r\n  margin-bottom: 20px;\r\n  width: 100%;\r\n  flex-basis: 50%;\r\n}\r\n\r\n.hero + p {\r\n  text-align: start;\r\n  font-size: 1.5rem;\r\n  max-width: 28ch;\r\n}\r\n\r\n.italic {\r\n  font-style: italic;\r\n}\r\n\r\n.beta {\r\n  font-weight: 700;\r\n  color: hsl(195deg, 85%, 41%);\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n  .hero + p {\r\n    max-width: unset;\r\n  }\r\n}\r\n\r\ntable {\r\n  border-collapse: collapse;\r\n  border: 2px solid hsl(0, 0%, 68%);\r\n}\r\n\r\ntd,\r\nth {\r\n  border: 1px solid hsl(0, 0%, 65%);\r\n  padding: 10px 20px;\r\n}\r\n\r\ncaption {\r\n  padding: 10px;\r\n  font-size: 2rem;\r\n  font-family: Cambria, Cochin, Georgia, Times, \"Times New Roman\", serif;\r\n}\r\n\r\ntr > td:last-of-type,\r\ntr > td:nth-of-type(3),\r\ntr > th:nth-of-type(4),\r\ntr > th:last-of-type {\r\n  text-align: end;\r\n}\r\n\r\ntr > td:nth-of-type(2),\r\ntr > th:nth-of-type(3) {\r\n  text-align: center;\r\n}\r\n\r\ntr > th:first-of-type {\r\n  text-align: start;\r\n}\r\n\r\nnav {\r\n  padding-inline: 15px;\r\n  background-color: hsl(0, 0%, 70%);\r\n}\r\n\r\nnav * {\r\n  color: hsl(0, 0%, 97%);\r\n}\r\n\r\nth {\r\n  font-weight: 500;\r\n}\r\n\r\nthead th {\r\n  font-weight: 700;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -755,12 +755,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ myPage)
 /* harmony export */ });
-function myPage(content){
-content.innerHTML = ''
-const header = document.createElement('h1')
-header.textContent = "Welcome To Complex Menu"
-content.append(header)
-content.innerHTML += `
+function myPage(content) {
+  content.innerHTML = "";
+  const header = document.createElement("h1");
+  header.textContent = "Welcome To Complex Menu";
+  content.append(header);
+  content.innerHTML += `
 <table role="grid">
 <caption>Our Exotic Dishes</caption>
 <thead>
@@ -815,10 +815,25 @@ content.innerHTML += `
         <td>9.3</td>
         <td>$8.5</td>
     </tr>
+    <tr>
+        <th>Camari</th>
+        <td>Optional</td>
+        <td>5</td>
+        <td>5</td>
+        <td>$2</td>
+    </tr>
+    <tr>
+        <th>Prawn Pasta</th>
+        <td>Some memories here. It has to taste good by force 😑</td>
+        <td>10 (<span class="beta"> according to her </span>)</td>
+        <td>5</td>
+        <td>$10.2</td>
+    </tr>
 </tbody>
 </table>
-`
+`;
 }
+
 
 /***/ }),
 
@@ -1217,4 +1232,4 @@ function goToGithub(){
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlee00a5a4b3481b941519d.js.map
+//# sourceMappingURL=bundle39941b3f9805042800ef.js.map
