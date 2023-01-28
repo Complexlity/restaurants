@@ -59,7 +59,7 @@ export default function myPage(content) {
         <td>$8.5</td>
     </tr>
     <tr>
-        <th>Camari</th>
+        <th>Calamari</th>
         <td>Optional</td>
         <td>5</td>
         <td>5</td>

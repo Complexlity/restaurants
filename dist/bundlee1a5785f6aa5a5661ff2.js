@@ -816,7 +816,7 @@ function myPage(content) {
         <td>$8.5</td>
     </tr>
     <tr>
-        <th>Camari</th>
+        <th>Calamari</th>
         <td>Optional</td>
         <td>5</td>
         <td>5</td>
@@ -1232,4 +1232,4 @@ function goToGithub(){
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle39941b3f9805042800ef.js.map
+//# sourceMappingURL=bundlee1a5785f6aa5a5661ff2.js.map
